@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+        <h1>Random Number Game</h1></header>
+    <h2>
+      Generate a number between 0 and &nbsp;
+      <form><input required class="userNum" type="number" min="0"></input></form>
+    </h2>
+    <h3>Guess the top number: &nbsp;
+        <form><input required class="comNum" type="number" min="0"></input></form>&nbsp;
+        <form><input class="playBtn" type="button" value="play!"></input></form>
+    </h3>
+    <h3 class="resultScreen"></h3>
+    <h2 class="outcome"></h2>
+  </body>
+  <script src="./index.js"></script>
+</html>
